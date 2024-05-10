@@ -20,7 +20,7 @@ $evening = $_POST['evening'];
 $numberSelection = $_POST['numberSelection'];
 
 $con = mysqli_connect('emilyandpascal.cnc28ymq8qzp.eu-west-1.rds.amazonaws.com', 'admin', 'emilyetsonDef2024!','rsvp');
-$sql = "INSERT INTO `guests` (`name`, `email`, `attendance`, `numberSelection`, `message`, `evening`) VALUES ('$name', '$email', '$attendance', '$numberSelection', '$message', '$evening');"
+$sql = "INSERT INTO 'guests' ('name', 'email', 'attendance', 'numberSelection', 'message', 'evening') VALUES ('$name', '$email', '$attendance', '$numberSelection', '$message', '$evening');"
 $rs = mysqli_query($con, $sql);
 
 if($rs)
