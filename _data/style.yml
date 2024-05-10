@@ -11,6 +11,7 @@ contact-image: "../img/contact.png"
 
 # Add custom fonts
 fonts_urls:
+    - "https://fonts.googleapis.com/css?family=Karla:400,600,600italic"
     - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
     - "https://fonts.googleapis.com/css?family=Kaushan+Script"
     - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
@@ -18,11 +19,11 @@ fonts_urls:
 
 # Set custom fonts
 fonts:
-  - name: "Montserrat"
+  - name: "Karla"
     for: "heading"
-  - name: "Kaushan Script"
+  - name: "Karla"
     for: "script"
-  - name: "Droid Serif"
+  - name: "Karla"
     for: "serif"
-  - name: "Roboto Slab"
+  - name: "Karla"
     for: "body"
