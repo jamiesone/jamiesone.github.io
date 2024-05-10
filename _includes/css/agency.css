@@ -900,7 +900,7 @@ body {
     padding: 20px 0; /* Adjust padding as needed */
 }
 
-#about .input[type="text"] {
+#about .user-input[type="text"] {
     width: 60%; /* Adjust based on preference */
     padding: 10px 20px;
     border: 2px solid #ccc; /* Style the border as you like */
