@@ -1,4 +1,4 @@
----
+<!-- ---
 caption: #what displays in the portfolio grid:
   title: Example
   subtitle: subtitle
@@ -19,4 +19,4 @@ optional info list (delete if not using):
 - Date: 
 - Client: 
 - Category: 
-
+ -->

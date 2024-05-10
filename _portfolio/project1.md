@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Project Threads
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
@@ -16,4 +16,4 @@ Use this area to describe your project. **Markdown** supported. This entry (proj
 
 - Date: January 2017
 - Client: Threads
-- Category: Illustration
+- Category: Illustration -->
