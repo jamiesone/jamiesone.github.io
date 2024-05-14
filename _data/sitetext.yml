@@ -70,7 +70,7 @@ en: &DEFAULT_EN
     section: rsvp
     name: "Your Name & Surname *"
     name-validation: "Please enter your name."
-    confirmation: "Confirm you will be present:"
+    attendance: "Confirm you will be present:"
     guests: "Number of guests:"
     email: "Your email *"
     email-validation: "Please enter your email address."
@@ -140,7 +140,7 @@ fr: &DEFAULT_FR
   info:
     title: "Informations pratiques"
     body: "Ici on ajoutera des infos utiles, comme le lieu et autres."
-    section: informations
+    section: information
 
   timeline:
     title: "Déroulement"

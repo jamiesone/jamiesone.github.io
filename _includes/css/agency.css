@@ -900,11 +900,35 @@ body {
     padding: 20px 0; /* Adjust padding as needed */
 }
 
-#about .user-input[type="text"] {
+
+#timeline .user-input[type="text"] {
     width: 60%; /* Adjust based on preference */
     padding: 10px 20px;
     border: 2px solid #ccc; /* Style the border as you like */
     border-radius: 30px; /* This makes the input oval-shaped */
+    outline: none;
+}
+
+#timeline .button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #1F3246;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px; /* Slightly rounded corners for the button */
+}
+
+#timeline .button:hover {
+    background-color: #D2DBDF;
+}
+
+
+/* #about .user-input[type="text"] {
+    width: 60%; 
+    padding: 10px 20px;
+    border: 2px solid #ccc; 
+    border-radius: 30px; 
     outline: none;
 }
 
@@ -915,10 +939,10 @@ body {
     background-color: #1F3246;
     color: white;
     cursor: pointer;
-    border-radius: 3px; /* Slightly rounded corners for the button */
+    border-radius: 3px;
 }
 
 #about .button:hover {
     background-color: #D2DBDF;
 }
-
+ */

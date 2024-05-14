@@ -16,15 +16,13 @@ en: &DEFAULT_EN
     # - title: "Information"
     #   section: portfolio
     - title: "Information"
-      section: about
+      section: info
     - title: "Timeline"
       section: timeline
     # - title: "Team"
     #   section: team
     - title: "RSVP"
-      section: contact
-    # - title: "Theme Source"
-    #   url: https://github.com/raviriley/agency-jekyll-theme/
+      section: rsvp
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -43,15 +41,13 @@ fr: &DEFAULT_FR
     # - title: "Portafolio"
     #   section: portafolio
     - title: "Information"
-      section: about
+      section: info
     - title: "Déroulement"
       section: timeline
     # - title: "Equipo"
     #   section: equipo
     - title: "RSVP"
-      section: contact
-    # - title: "Fuente de la plantilla"
-    #   url: https://github.com/raviriley/agency-jekyll-theme/
+      section: rsvp
 fr-FR:
   <<: *DEFAULT_FR
 fr-CH:
