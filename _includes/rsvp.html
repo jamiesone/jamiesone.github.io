@@ -24,18 +24,18 @@
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="attendance" class="form-control" id="attendance" type="boolean">
+                <!-- <input name="attendance" class="form-control" id="attendance" type="boolean"> -->
                 <label for="attendance">{{ site.data.sitetext[site.locale].rsvp.attendance | default: "Confirm you will be present" }}</label>
                 <select id="attendance" class="form-control">
-                    <option value="yes">Yes</option>
+                    <option value="yes" selected>Yes</option>
                     <option value="no">No</option>
                 </select>
               </div>
               <div class="form-group">
-                <input name="numberSelection" class="form-control" id="numberSelection" type="number">
+                <!-- <input name="numberSelection" class="form-control" id="numberSelection" type="number"> -->
                 <label for="numberSelection">{{ site.data.sitetext[site.locale].rsvp.guests | default: "Number of guests:" }}</label>
                 <select id="numberSelection" class="form-control">
-                    <option value="1">1</option>
+                    <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="3">4</option>
@@ -103,18 +103,18 @@
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="attendance" class="form-control" id="attendance" type="boolean">
+                <!-- <input name="attendance" class="form-control" id="attendance" type="boolean"> -->
                 <label for="attendance">{{ site.data.sitetext.rsvp.attendance | default: "Confirm you will be present" }}</label>
                 <select id="attendance" class="form-control">
-                    <option value="yes">Yes</option>
+                    <option value="yes" selected>Yes</option>
                     <option value="no">No</option>
                 </select>
               </div>
               <div class="form-group">
-                <input name="numberSelection" class="form-control" id="numberSelection" type="number">
+                <!-- <input name="numberSelection" class="form-control" id="numberSelection" type="number"> -->
                 <label for="numberSelection">{{ site.data.sitetext.rsvp.guests | default: "Number of guests:" }}</label>
                 <select id="numberSelection" class="form-control">
-                    <option value="1">1</option>
+                    <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="3">4</option>
