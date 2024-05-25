@@ -375,6 +375,17 @@ section h4.section-subheading {
     margin-right: 10px;
 }
 
+#portfolio_grid h4.section-subheading {
+    text-transform: none;
+    font-family: {{ site.data.template.font.secondary }};
+    /* font-size: 16px;
+    font-style: italic; */
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 @media(min-width:768px) {
     section {
