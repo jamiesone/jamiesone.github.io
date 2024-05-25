@@ -39,8 +39,8 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>We're looking forward to celebrating with you! </strong>");
-                        // .append("<strong>On se réjouit de fêter notre mariage avec vous! </strong>");
+                        // .append("<strong>We're looking forward to celebrating with you! </strong>");
+                        .append("<strong>On se réjouit de fêter notre mariage avec vous! </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -52,8 +52,8 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", there seems to have been an error. Please try again or get in touch with us.");
-                    // $('#success > .alert-danger').append("<strong>"Il y a eu un petit coauc... Veuillez réessayer plus tard ou nous contacter.");
+                    // $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", there seems to have been an error. Please try again or get in touch with us.");
+                    $('#success > .alert-danger').append("<strong>Il y a eu un petit coauc... Veuillez réessayer plus tard ou nous contacter.");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
