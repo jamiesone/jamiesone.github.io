@@ -1,9 +1,10 @@
-<section id="contact">
+<section id="contact" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">RSVP</h2>
                     <h3 class="section-subheading text-muted">Please let us know if you can join us!</h3>
+                    <!-- <h3 class="section-subheading text-muted">Merci de nous informer de votre présence !</h3> -->
                 </div>
             </div>
             <div class="row">
@@ -13,6 +14,7 @@
                             <div class="col-md-6">
                                 <div class="control-group form-group">
                                     <input type="text" class="form-control" placeholder="Your Name & Surname *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <!-- <input type="text" class="form-control" placeholder="Nom & Prénom *" id="name" required data-validation-required-message="Merci d'entrer votre nom."> -->
                                     <p class="help-block text-danger"></p>
                                 </div>
 
@@ -20,20 +22,19 @@
                                     <!-- <input type="boolean" class="form-control" placeholder="Confirm you will be present" id="attendance" required data-validation-required-message="Please let us know if you will be present."> -->
                                     <!-- <input type = "boolean"> -->
                                     <label for="attendance">Confirm you will be present:</label>
+                                    <!-- <label for="attendance">Confirmer votre présence:</label> -->
                                     <select id="attendance" class="form-control">
                                         <option value=true>Yes</option>
                                         <option value=false>No</option>
+                                        <!-- <option value="yes">Oui</option>
+                                        <option value="no">Non</option> -->
                                     </select>
                                 </div>
-
-                                <!-- <div class="control-group form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div> -->
 
                                 <div class="control-group form-group">
                                     <!-- <input type="number"> -->
                                     <label for="numberSelection">Number of Guests:</label>
+                                    <!-- <label for="numberSelection">Nombre de personnes:</label> -->
                                     <select id="numberSelection" class="form-control">
                                         <option value=1>1</option>
                                         <option value=2>2</option>
@@ -52,6 +53,7 @@
 
                                 <div class="control-group form-group">
                                     <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <!-- <input type="email" class="form-control" placeholder="Votre adresse mail *" id="email" required data-validation-required-message="Merci d'entrer votre adresse mail."> -->
                                     <p class="help-block text-danger"></p>
                                 </div>
 
@@ -59,6 +61,7 @@
                             <div class="col-md-6">
                                 <div class="control-group form-group">
                                     <textarea class="form-control" placeholder="Your Message" id="message"></textarea>
+                                    <!-- <textarea class="form-control" placeholder="Votre message" id="message"></textarea> -->
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -66,6 +69,7 @@
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send</button>
+                                <!-- <button type="submit" class="btn btn-xl">Envoyer</button> -->
                             </div>
                         </div>
                     </form>
