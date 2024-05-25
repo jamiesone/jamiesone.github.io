@@ -710,17 +710,16 @@ section h4.section-subheading {
 } */
 
 section#contact {
-    /* background-color: #222; */
-    background-color: rgba(34, 34, 34, 0.3); /* Adjust the last value (0.5) for transparency */
+    /* background-color: rgba(34, 34, 34, 0.3); */
     /* background-image: url('{{ site.baseurl }}/img/map-image.png'); */
-    background-image: url('{{ site.baseurl }}/img/Pascal_Emily_27.jpeg');
+    /* background-image: url('{{ site.baseurl }}/img/Pascal_Emily_27.jpeg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    /* color: #fff; */
 }
 
 section#contact .form-group {
@@ -737,7 +736,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 343px;
 }
 
 section#contact .form-control:focus {
