@@ -19,27 +19,40 @@ $message = $_POST['message'];
 $evening = $_POST['evening'];
 $numberSelection = $_POST['numberSelection'];
 
-$con = mysqli_connect('emilyandpascal.cnc28ymq8qzp.eu-west-1.rds.amazonaws.com', 'admin', 'emilyetsonDef2024!','rsvp');
-$sql = "INSERT INTO 'guests' ('name', 'email', 'attendance', 'numberSelection', 'message', 'evening') VALUES ('$name', '$email', '$attendance', '$numberSelection', '$message', '$evening');"
-echo($sql)
-$rs = mysqli_query($con, $sql);
 
-if($rs)
-{
-	return true;
+$conn = new mysqli('re0k9a.myd.infomaniak.com', 're0k9a_admin', 'emilyetsonDef2024!','re0k9a_wedding');
+
+//$conn = new mysqli('emilyandpascal.cnc28ymq8qzp.eu-west-1.rds.amazonaws.com', 'admin', 'emilyetsonDef2024!','rsvp');
+// Check connection
+if ($conn->connect_error) {
+   die("Connection failed");
 }
-else{
-   echo($rs)
+
+if ($evening) {
+  $evening_int = 1;
+} else {
+  $evening_int = 0;
+};
+
+if ($attendance) {
+  $attendance_int = 1;
+} else {
+  $attendance_int = 0;
+};
+
+
+$sql = $conn->prepare("INSERT INTO guests (name, email, attendance, numberSelection, message, evening) VALUES (?, ?, ?, ?, ?, ?);");
+$sql->bind_param("ssssss", $name, $email_address, $attendance_int, $numberSelection, $message, $evening_int);
+//$sql = "INSERT INTO guests (name, email, attendance, numberSelection, message, evening) VALUES ('$name_updated', '$email_address', '$attendance', '$numberSelection', '$message_updated', '$evening');";
+
+  
+// if(mysqli_query($conn, $sql)){
+if($sql->execute()){
+   echo "Success";
+   return true;
+} else {
+   echo "ERROR: Was not able to execute $sql. " . mysqli_error($conn);
    return false;
 }
 
-
-// // Create the email and send the message
-// $to = 'jerome.lachaud@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-// $email_subject = "Website Contact Form:  $name";
-// $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-// $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-// $headers .= "Reply-To: $email_address";
-// mail($to,$email_subject,$email_body,$headers);
-// return true;
 ?>
