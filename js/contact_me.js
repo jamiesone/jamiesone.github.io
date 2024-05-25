@@ -10,11 +10,13 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var attendance = $("input#attendance").val();
+            var attendance = $("select#attendance").val();
+            // if (attendance == 'Yes') {var attendance_bool = true;}
+            // else {var attendance_bool = false;}
             var message = $("textarea#message").val();
-            var numberSelection = $("textarea#numberSelection").val();
+            var numberSelection = $("select#numberSelection").val();
             var firstName = name; // For Success/Failure Message
-            var evening = true
+            var evening = true;
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
