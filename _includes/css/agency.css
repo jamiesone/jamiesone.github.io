@@ -352,6 +352,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #7E949C;
 }
 
 section h3.section-subheading {
@@ -399,6 +400,7 @@ section h4.section-subheading {
 
 #services h2.section-heading {
     text-transform: none;
+    color: #7E949C; 
 }
 
 
