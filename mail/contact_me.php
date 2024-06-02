@@ -34,11 +34,12 @@ if ($evening) {
   $evening_int = 0;
 };
 
-if ($attendance) {
-  $attendance_int = 1;
-} else {
-  $attendance_int = 0;
-};
+// if ($attendance) {
+//   $attendance_int = 1;
+// } else {
+//   $attendance_int = 0;
+// };
+$attendance_int = 0;
 
 
 $sql = $conn->prepare("INSERT INTO guests (name, email, attendance, numberSelection, message, evening) VALUES (?, ?, ?, ?, ?, ?);");
