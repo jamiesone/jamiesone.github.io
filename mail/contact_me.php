@@ -3,7 +3,6 @@
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['numberSelection']) 		||
-   empty($_POST['message'])	||
    empty($_POST['attendance'])	||
    empty($_POST['evening'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
@@ -28,13 +27,9 @@ if ($conn->connect_error) {
    die("Connection failed");
 }
 
-if ($evening) {
-  $evening_int = 1;
-} else {
-  $evening_int = 0;
-};
+$evening_int = 1;
 
-if ($attendance) {
+if ($attendance == "true") {  
   $attendance_int = 1;
 } else {
   $attendance_int = 0;
