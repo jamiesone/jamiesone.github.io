@@ -3,7 +3,6 @@
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['numberSelection']) 		||
-   empty($_POST['message'])	||
    empty($_POST['attendance'])	||
    empty($_POST['evening'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
