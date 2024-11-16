@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: On the 27th of July, I waited for Em on that lawn near a little castle. It was very romantic, but she showed up 15 minutes late (it was for a good reason as she really needed that coffee).
+description: On the 27th of July, I waited for Em on that lawn near a little castle. It was very romantic, but she showed up 15 minutes late (for a good reason as she really needed that coffee).
 
 ---
