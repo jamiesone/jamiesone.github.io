@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Together with both our families on the 27th.
+description: With Pascal's family and Em's parents who were able to come over from NZ.
 
 ---

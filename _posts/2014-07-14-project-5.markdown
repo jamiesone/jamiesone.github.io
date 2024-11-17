@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Later in the evening of the 27th, we were able to fly a tethered hot air baloon. It was a special experience and our guests really appreciated that moment.
+description: After Emily talking about hot air balloons for years (to anyone who would listen), we were able to share a tethered flight with everyone later in the evening.
 
 ---

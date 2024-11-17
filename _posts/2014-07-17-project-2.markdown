@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: On the 25th of July in the Bernex townhall together with Ruth and Denis our respective witnesses.
+description: In the Bernex town hall with our witnesses Ruth and Denis.
 
 ---

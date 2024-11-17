@@ -10,6 +10,6 @@ alt: image-alt
 # project-date: April 2014
 # client: Start Bootstrap
 # category: Web Development
-description: On the 25th of July, Em said "yes" in the Bernex townhall. In Switzerland, typically there is a separate civil ceremony.
+description: On the 25th of July, we said "I do" in the Bernex town hall. In Switzerland, the civil ceremony usually takes place a couple of days before the wedding.
 
 ---
